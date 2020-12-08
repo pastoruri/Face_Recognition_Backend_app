@@ -54,7 +54,7 @@ def knn_r(nombre, cant):
 
 
     
-def range(nombre, rango):
+def range_q(nombre, rango):
     rango = rango/100
     p = index.Property()
     p.dimension = 128
@@ -140,13 +140,19 @@ def knn_h(nombre, cant):
 
     return ret
     
-    
+#========MAIN=========    
 
 #crear_insertar()
 
-knn_h('Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg',15)
+a = knn_h('Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg',15)
+b = knn_r('Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg',15)
+c = range_q('Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg',15)
+
+print(a)
 print('\n--------------------------\n')
-knn_r('Abid_Hamid_Mahmud_Al-Tikriti_0001.jpg',15)
+print(b)
+print('\n--------------------------\n')
+print(c)
 
 
 
