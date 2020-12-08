@@ -1,8 +1,9 @@
 # Face_Recognition_Backend_app
 
+## IMPORTANTE
+Las fotos utilizadas deben ser unicamente jpg, aqui hay una gran base de datos provista por el profesor http://vis-www.cs.umass.edu/lfw/
 
-
-##Instrucciones de uso:
+### Instrucciones de uso:
 Para que funcione bien, primero tienes que hacer ls *.jpg > names.txt,
 esto hara que todos los nombres de tus fotos jpg de tu directorio actual se guarden
 en un archivo. Para esto estoy tomando en cuenta que todos los archivos incluyendo el .py
@@ -18,7 +19,7 @@ deberian devolverte una lista de los nombres de los archivos seleccionados.
 
 He hecho un requirements.txt, creo que solo funciona con linux. En cualquier caso, aqui dejo las libreiras que he usado
 
-##Instalacion Mac (no estoy seguro de que funcione, pero eso deberia funcionar)
+### Instalacion Mac (no estoy seguro de que funcione, pero eso deberia funcionar)
 
 (face_recognition, si te pide agregar al PATH, hazlo)
 
